@@ -6,3 +6,6 @@ function App() {
 }
 
 export default App
+
+{/** TODO:
+    1)Navigation: home, projects, making-of  */}
