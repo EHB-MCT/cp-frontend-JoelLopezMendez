@@ -1,6 +1,8 @@
 function HomePage() {
     return (
-        <></>
+        <>
+            <h1>Home HomePage </h1>
+        </>
     )
     
 }
