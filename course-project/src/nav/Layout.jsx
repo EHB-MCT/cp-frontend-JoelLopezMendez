@@ -23,7 +23,6 @@ function Layout() {
             <Outlet /> {/**sin esto no se renderizan las paginas */}
         </>
     )
-    
 }
 
 export default Layout;

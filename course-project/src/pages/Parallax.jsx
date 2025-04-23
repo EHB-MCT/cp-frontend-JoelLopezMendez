@@ -1,7 +1,7 @@
 function Parallax() {
     return (
         <>
-            <h2>Raponsje</h2>
+            <h3>Raponsje</h3>
         </>
     )
     

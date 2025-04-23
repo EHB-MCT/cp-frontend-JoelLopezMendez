@@ -1,7 +1,7 @@
 function Making() {
     return (
         <>
-            <h1>Makinf of page </h1>
+            <h3>Makinf of page </h3>
         </>
     )
 }
