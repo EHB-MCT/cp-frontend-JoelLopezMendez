@@ -1,0 +1,28 @@
+#imageCover{    
+    width: 90%;
+    height: 400px;
+    background-image: url("../../public/making-cover.svg");
+    background-size: cover;
+}
+#imageCover:hover{    
+    transform: scaleX(-1);
+}
+
+#contentWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.videoBlock{
+    background-color: aliceblue;
+    width: 45%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.description{
+    width: 50%;
+}
