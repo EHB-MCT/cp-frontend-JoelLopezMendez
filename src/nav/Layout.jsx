@@ -3,7 +3,7 @@ import { Outlet, Link } from "react-router";
 function Layout() {
     return (
         <>
-            <nav>
+            <nav className="header">
                 <ul>
                     <li>
                         <Link to="/">Home</Link> {/**Link se asegura de conectar las paginas con sus link */}
