@@ -15,7 +15,7 @@ function Layout() {
                         <Link to="/Making-of">Making-of</Link>
                     </li>
                     <li>
-                        <Link to="/Parallax" target="_blank" rel="noopener noreferrer">Parallax page</Link>
+                        <Link to="/Parallax" target="_blank" rel="noopener noreferrer">About/Parallax</Link>
                     </li>
                 </ul>
             </nav>

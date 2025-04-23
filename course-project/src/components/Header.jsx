@@ -4,13 +4,13 @@ import HomePage from "../pages/Home";
 import Projects from "../pages/Project";
 import Making from "../pages/Making";
 import Parallax from "../pages/Parallax";
+
 import { BrowserRouter, Routes, Route } from "react-router";
 
 function Header() {
     return (
         <>
-            <div className="nav">
-
+            <div className="header">
                 <BrowserRouter>
                     <Routes>
                         <Route path="/" element={<Layout />}>
