@@ -20,9 +20,9 @@ function Header() {
                             <Route path="Making-of" element={<Making />} />
                         </Route>
                         <Route path="*" element={<Error />} /> {/*als de user naar een pagina zoekt dat niet bestaat*/}
-                        <Route path="Parallax" element={<Layout2 />}>
+                       {/**<Route path="Parallax" element={<Layout2 />}>
                             <Route index element={<Parallax />} />
-                        </Route>
+                        </Route> */} 
                     </Routes>
                 </BrowserRouter>
             </div>
