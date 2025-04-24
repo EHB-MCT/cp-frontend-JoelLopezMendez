@@ -5,6 +5,20 @@ body {
     padding: 0;
 }
 
+.center{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.btn{
+    color: #ebf5ec;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #e51131;
+}
+
 /*HEADER
 .header{
     background-color: #e51131;

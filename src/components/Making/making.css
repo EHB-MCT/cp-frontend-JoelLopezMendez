@@ -48,11 +48,5 @@ p{
 
 .btn{
     margin-top: auto;
-    color: #ebf5ec;
     align-self: flex-start;
-
-    padding: 10px;
-    border: none;
-    border-radius: 20px;
-    background-color: #e51131;
 }

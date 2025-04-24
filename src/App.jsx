@@ -30,6 +30,7 @@ function App() {
       </BrowserRouter>*/}
       
       <Header />
+      <HomePage />
       <Making />
       <Footer />
     </>
