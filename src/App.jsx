@@ -15,21 +15,22 @@ import { BrowserRouter, Routes, Route } from "react-router";
 function App() {
   return (
     <>
-      <BrowserRouter>
+     {/* <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
               <Route index element={<HomePage />} />
               <Route path="Projects" element={<Projects />} />
               <Route path="Making-of" element={<Making />} />
           </Route>
-          <Route path="*" element={<Error />} /> {/*als de user naar een pagina zoekt dat niet bestaat*/}
-            <Route path="Parallax" element={<Layout2 />}>
+          <Route path="*" element={<Error />} /> */}{/*als de user naar een pagina zoekt dat niet bestaat*/}
+            {/*<Route path="Parallax" element={<Layout2 />}>
               <Route index element={<Parallax />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter>*/}
       
       <Header />
+      <Making />
       <Footer />
     </>
   );
