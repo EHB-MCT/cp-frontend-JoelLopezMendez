@@ -1,6 +1,6 @@
-import MakingOfDes from "../components/Making/MakingOfDes";
-import MakingOfVideo from "../components/Making/MakingOfVideo";
-import "../components/Making/making.css"
+import MakingOfDes from "../components/making/MakingOfDes";
+import MakingOfVideo from "../components/making/MakingOfVideo";
+import "../components/making/making.css"
 
 function Making() {
     return (

@@ -1,5 +1,5 @@
 import SprookjeCard from "../components/SprookjeCard";
-import "../components/Home/home.css"
+import "../components/home/home.css"
 
 function HomePage() {
     return (
