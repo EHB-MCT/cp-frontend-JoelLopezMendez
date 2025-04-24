@@ -1,6 +1,6 @@
 body {
-    background-color: #000;
-    color: #ebf5ec;
+    background-color: #ebf5ec;
+    color: #000;
     margin: 0;
     padding: 0;
 }
@@ -22,6 +22,7 @@ body {
     margin: 0 20px;
 }
 */
+
 /*FOOTER*/
 .footer {
     position: fixed;

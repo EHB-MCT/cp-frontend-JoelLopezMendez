@@ -1,24 +1,24 @@
+import MakingOfVideo from "../components/MakingOfVideo";
 import "../share/making.css"
 
 function Making() {
     return (
         <>
-            <h1>Makinf of - Raponsje</h1>
+            <h1 id="cover">Makinf of - Raponsje</h1>
             <div id="imageCover"> </div>
 
             <div id="contentWrapper">
-                <div className="videoBlock">
-                    <h1>Explainer video</h1>
-                </div>
+                <MakingOfVideo />
 
-                <div className="description">
+                <div className="description column">
                     <h1>Description</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Provident fugit nesciunt perferendis, corporis officiis 
                         magni distinctio dolorem, qui ad modi voluptate et 
                         quisquam dolores aut magnam consectetur harum excepturi 
                         reprehenderit?
-                    </p> <button>Visit website</button>
+                    </p> 
+                    <button className="btn">Visit website</button>
                 </div>
             </div>
         </>

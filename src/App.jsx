@@ -28,6 +28,7 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter>
+      
       <Header />
       <Footer />
     </>
